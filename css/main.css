@@ -183,7 +183,7 @@ header {
     color: var(--black-text-color);
 
     background: var(--accent-color);
-    border-radius: 0px;
+    border-radius: 10px;
 }
 
 .main-hero__link:hover,
@@ -382,6 +382,7 @@ header {
     line-height: 2.5;
     text-align: center;
     color: #3E3935;
+    border: 10px;
     
     background-color: var(--accent-color);
     border-color: var(--accent-color);
@@ -675,7 +676,7 @@ header {
     color: var(--main-text-color);
 
     border: 2px solid var(--main-text-color);
-    border-radius: 0px;
+    border-radius: 10px;
     padding: 2px 60px;
 }
 
@@ -719,7 +720,7 @@ header {
 
 .basement {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: baseline;
     margin-top: 45px;
 }
@@ -728,4 +729,38 @@ header {
     font-size: 12px;
     line-height: 1.67;
     color: var(--main-text-color);
+}
+
+.basement-menu {
+    display: flex;
+    align-items: baseline;
+}
+
+.basement-menu__text {
+    font-size: 16px;
+    line-height: 1.67;
+    color: var(--main-text-color);
+}
+
+.basement-menu__btn {
+    margin-left: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    color: #3E3935;
+    border: 10px;
+    
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    border-radius: 0px;       
+}
+
+.basement-menu__btn:hover,
+.basement-menu__btn:focus {
+    font-weight: 700;
+    color: var(--secondary-text-color);
+    background-color: var(--green-text-color);
+    border-color: var(--green-text-color);
+    transition: 400ms;
+    cursor: pointer;
 }
